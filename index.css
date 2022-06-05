@@ -1,0 +1,198 @@
+.btn-default {
+  background: rgb(215, 194, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 194, 194, 1) 0%,
+    rgba(231, 79, 225, 1) 100%
+  );
+  border: 2px solid rgb(254, 54, 224);
+  color: white;
+  /* font-weight: bold; */
+  font-family: "Tapestry", cursive;
+  text-shadow: 2px 1px black;
+}
+.Cards {
+  /* border: 2px solid rgb(176, 149, 149); */
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px rgb(176, 149, 149);
+  background: rgb(217, 191, 191);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 191, 191, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.heading {
+  text-shadow: 10px 2px rgb(22, 22, 21);
+  font-family: "Alfa Slab One", cursive;
+}
+
+.para {
+  font-family: "Satisfy", cursive;
+  color: wheat;
+  text-shadow: 3px 2px rgb(22, 22, 21);
+}
+.sub-para {
+  font-family: "Concert One", cursive;
+  color: rgb(98, 89, 89);
+}
+
+.X-vios {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.section22 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Charm", cursive;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+.section2 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 20px;
+  text-shadow: 5px 3px black;
+  text-align: center;
+}
+
+.second-container {
+  height: auto;
+  width: 100%;
+  /* background-color: red; */
+  flex-wrap: wrap;
+  display: flex;
+  overflow: hidden;
+}
+
+.second-left {
+  height: 300px;
+  width: 250px;
+  background-image: url("./image6.jpg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 5px grey;
+}
+.second-right {
+  height: auto;
+  width: 70%;
+  /* background-color: blue; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: wheat;
+  font-size: 50px;
+  font-family: "Tangerine", cursive; /* animation-name: roller;
+    animation-duration: 200s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    margin-top: -5%; */
+}
+
+@keyframes roller {
+  10% {
+    margin-top: 10%;
+  }
+  20% {
+    margin-top: 20%;
+  }
+}
+
+.text-sec {
+  height: 55px;
+  width: 100px;
+  /* background-color: aliceblue; */
+  margin-left: 30px;
+  margin-top: 60px;
+  color: rgb(164, 161, 161);
+  font-family: "Tiro Kannada", serif;
+  text-align: center;
+}
+
+.third-container {
+  height: auto;
+  width: 100%;
+  /* background-color: red; */
+  flex-wrap: wrap;
+  display: flex;
+  overflow: hidden;
+}
+
+.third-left {
+  height: 300px;
+  width: 250px;
+  background-image: url("./InShot_20220605_132206828.jpg");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 5px grey;
+}
+.third-right {
+  height: auto;
+  width: 40%;
+  /* background-color: blue; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: wheat;
+  font-size: 15px;
+  font-family: "Tangerine", cursive;
+    padding-top: 15px;
+}
+
+.third-sec {
+  height: 55px;
+  width: 100px;
+  /* background-color: aliceblue; */
+  margin-left: 100px;
+  margin-top: 200px;
+  color: rgb(59, 55, 55);
+  font-family: "Tiro Kannada", serif;
+  text-align: center;
+}
+
+
+.picture-coursel{
+    height: 1000px;
+    width: 70%;
+    background-image: url('./InShot_20220605_131458789.jpg');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-bottom: 20px solid black;
+    margin-top: 50px;
+}
+
+@media only screen and ( max-width:500px){
+    .picture-coursel{
+        height: 170px;
+        border-bottom: 5px solid black;
+        margin-top: 15px;
+
+    }
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin-top: 150px;
+
+}
